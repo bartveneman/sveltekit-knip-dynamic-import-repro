@@ -2,6 +2,8 @@
 
 This is a small svelte kit project to reproduce an issue with dymanic imports in Knip.
 
+Knip version: ^5.66.4
+
 ## Issue description
 
 I've created an `Error.svelte` component that is lazy loaded in the `src/routes/+page.svelte` component:
