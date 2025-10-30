@@ -9,6 +9,10 @@
   <meta name="description" content="Svelte demo app" />
 </svelte:head>
 
+{#await import("./Error.svelte") then Err}
+  <Err.default />
+{/await}
+
 <section>
   <h1>
     <span class="welcome">
